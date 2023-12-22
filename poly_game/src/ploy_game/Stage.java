@@ -2,7 +2,7 @@ package ploy_game;
 
 public interface Stage {
 
-	 boolean update();
+	 public boolean update();
 
 	 void init();
 }

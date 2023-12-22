@@ -5,17 +5,16 @@ public class StageTitle implements Stage {
 	@Override
 	public boolean update() {
 		System.out.println("==== TEXT RPG ====");
-		System.out.println("[시작] 을 입력하세요");
-		String start = GameManager.scan.next();
-		if (start.equals("시작"))
-			;
+		System.out.println("아무 키나 입력하세요");
+		String start = GameManager.scan.nextLine();
+		if (start != null)
 		GameManager.nextStage = "LOBBY";
 		return false;
 	}
-
+	
 	@Override
 	public void init() {
-
+		
 	}
 
 }

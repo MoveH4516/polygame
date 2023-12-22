@@ -8,8 +8,6 @@ public class StageLobby implements Stage {
 		int sel = GameManager.scan.nextInt();
 		if (sel == 1) {
 			GameManager.nextStage = "BATTLE";
-		} else if (sel == 2) {
-			GameManager.nextStage = "";
 		} else {
 			GameManager.nextStage = "";
 		}
@@ -18,7 +16,6 @@ public class StageLobby implements Stage {
 
 	@Override
 	public void init() {
-		// TODO Auto-generated method stub
 
 	}
 

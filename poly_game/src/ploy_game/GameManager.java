@@ -13,7 +13,6 @@ public class GameManager {
 	Map<String, Stage> stageList = new HashMap<String, Stage>();
 
 	GameManager() {
-
 		stageList.put("TITLE", new StageTitle());
 		stageList.put("BATTLE", new StageBattle());
 		stageList.put("LOBBY", new StageLobby());

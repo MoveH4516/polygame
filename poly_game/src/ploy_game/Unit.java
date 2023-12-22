@@ -30,6 +30,18 @@ public abstract class Unit {
 		power = pw;
 	};
 
+//	void skill(Player p, int index, Unit mon) {
+//		
+//	}
+	
+//	void heal(Player player) {
+//		
+//	}
+	
+	void skill (Player target, Unit m) {
+		
+	}
+	
 	void attack(Unit target) {
 		target.curhp -= power;
 		System.out.println("[" + name + "] 이 " + "[" + target.name + "] 에게 " + power + "의 데미지를 입힙니다. ");
